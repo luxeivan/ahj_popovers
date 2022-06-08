@@ -1,5 +1,6 @@
-import CartValidator from './CardValidator';
+import Popover from './Popover';
 
-const placeForValidator = document.querySelector('.container');
-const cartValidator = new CartValidator(placeForValidator);
-console.log(cartValidator);
+const forElem = document.getElementById('button');
+const popover = new Popover(forElem);
+
+console.log(popover);
